@@ -12,6 +12,6 @@ end)
 
 local Section = Tab:NewSection("Fly")
 
-Section:NewButton("Fly", "Fly", function()
+Section:NewButton("Fly", "On Fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
