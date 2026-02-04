@@ -2,6 +2,4 @@ local Library = loadstring(game:HttpGet("https://github.com/brownik87-arch/H000x
 
 local Window = Library.CreateLib("H00xmenu", "RJTheme3")
 
-local Tab = Window:NewTab("tools")
-
 local Section = Tab:NewSection("tools")
