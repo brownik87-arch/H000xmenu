@@ -15,3 +15,9 @@ local Section = Tab:NewSection("Fly")
 Section:NewButton("Fly", "On Fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
+
+local Section = Tab:NewSection("Noclip")
+
+Section:NewButton("Noclip", "On Noclip", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2JZWpiKn", true))()
+end)
