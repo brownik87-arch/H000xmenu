@@ -9,5 +9,3 @@ local Section = Tab:NewSection("Speed")
 Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
 end)
-
-end)
