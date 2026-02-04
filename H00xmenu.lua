@@ -85,7 +85,5 @@ local Tab = Window:NewTab("Tools")
 
 Section:NewButton("ButtonText", "ButtonInfo", function()
     loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Infinite%20Yield.lua"))()
-                
-end)
         
 end)
