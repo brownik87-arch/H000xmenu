@@ -2,9 +2,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 
 local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
-local Tab = Window:NewTab("Tools speed")
+local Tab = Window:NewTab("Tools")
 
-local Section = Tab:NewSection("Speed")
+local Section = Tab:NewSection("Invisibility")
 
 Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
@@ -20,4 +20,10 @@ local Section = Tab:NewSection("Noclip")
 
 Section:NewButton("Noclip", "On Noclip", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/2JZWpiKn", true))()
+end)
+
+local Section = Tab:NewSection("Admin Panel")
+
+Section:NewButton("Admin Panel", "Admin Panel Reviz V2", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/princemiguel1234/af2a4841416e2aa41cce2017a14f2fff/raw/471718ec692954af5028cb8f922f00c66afd954d/Reviz%20Admin%20V2"))()
 end)
