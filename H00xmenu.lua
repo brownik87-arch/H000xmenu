@@ -4,6 +4,12 @@ local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
 local Tab = Window:NewTab("Tools")
 
+local Section = Tab:NewSection("Esp,Aimbot")
+
+Section:NewButton("Aim-bot,Esp", "Aim-bot,Esp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yahahahau/Ultimate-Esp-v1/refs/heads/main/Ultimate%20esp%20v1.lua"))()
+end)
+
 local Section = Tab:NewSection("Speed")
 
 Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
