@@ -4,10 +4,6 @@ local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
 local Tab = Window:NewTab("Tools")
 
-Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(currentOption)
-    print("RJTheme1", "RJTheme2")
-end)
-
 local Section = Tab:NewSection("Speed")
 
 Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
