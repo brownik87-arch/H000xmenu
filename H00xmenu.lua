@@ -9,3 +9,9 @@ local Section = Tab:NewSection("Speed")
 Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
 end)
+
+local Section = Tab:NewSection("Fly")
+
+Section:NewButton("Fly", "Fly", function()
+    loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Fly.lua"))()
+end)
