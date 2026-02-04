@@ -6,7 +6,7 @@ local Tab = Window:NewTab("Tools speed")
 
 local Section = Tab:NewSection("Speed")
 
-Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+Section:NewToggle("Invisibility", "Enable push button, Disable respawn", function(state)
     if state then
         script.Disabled = false
         
