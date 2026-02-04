@@ -4,8 +4,9 @@ local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
 local Tab = Window:NewTab("Tools")
 
-Section:NewLabel("Colour")
-
+Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(currentOption)
+    print("RJTheme1", "RJTheme2")
+end)
 
 local Section = Tab:NewSection("Speed")
 
