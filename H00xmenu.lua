@@ -2,6 +2,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 
 local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
-local Tab = Window:NewTab("TabName")
+local Tab = Window:NewTab("Tools speed")
 
-local Section = Tab:NewSection("Tools speed")
+local Section = Tab:NewSection("names")
