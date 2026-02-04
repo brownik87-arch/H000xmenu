@@ -4,6 +4,12 @@ local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
 local Tab = Window:NewTab("Tools")
 
+local Section = Tab:NewSection("Speed")
+
+Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
 local Section = Tab:NewSection("Invisibility")
 
 Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
