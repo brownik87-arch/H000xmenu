@@ -1,1 +1,3 @@
-local Window = Library.CreateLib("Name", "RJTheme3")
+local Window = Library.CreateLib("H00xmenu", "RJTheme3")
+
+local Tab = Window:NewTab("tools")
