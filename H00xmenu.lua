@@ -1,2 +1,1 @@
-
-Library.CreateLib("H00xmenu", "RJTheme3")
+Window.CreateWindow("H00xmenu", "RJTheme3")
