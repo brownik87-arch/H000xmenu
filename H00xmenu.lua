@@ -83,7 +83,7 @@ Section:NewToggle("Invisibility", "Enable push button, Disable respawn", functio
 
 local Tab = Window:NewTab("Tools")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Infinite menu", "ButtonInfo", function()
     loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Infinite%20Yield.lua"))()
         
 end)
