@@ -4,6 +4,9 @@ local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
 
 local Tab = Window:NewTab("Tools")
 
+Section:NewLabel("Colour")
+
+
 local Section = Tab:NewSection("Speed")
 
 Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
