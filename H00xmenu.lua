@@ -13,5 +13,5 @@ end)
 local Section = Tab:NewSection("Fly")
 
 Section:NewButton("Fly", "Fly", function()
-    loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Fly.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))() 
 end)
