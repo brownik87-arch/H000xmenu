@@ -6,10 +6,10 @@ local Tab = Window:NewTab("Tools speed")
 
 local Section = Tab:NewSection("Speed")
 
-Section:NewToggle("ToggleText", "ToggleInfo", function(state)
-    if state then
+Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
+        
 loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
-    else
-        print("Toggle Off")
-    end
+
+end)
+
 end)
