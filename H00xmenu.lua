@@ -192,9 +192,22 @@ end)
 
 local Tab = Window:NewTab("Tools Admin")
 
-local Section = Tab:NewSection("Admin Panel")
+local Section = Tab:NewSection("Admin Panel Reviz V2")
 
 Section:NewButton("Admin Panel", "Admin Panel Reviz V2", function()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/princemiguel1234/af2a4841416e2aa41cce2017a14f2fff/raw/471718ec692954af5028cb8f922f00c66afd954d/Reviz%20Admin%20V2"))()
 end)
+
+local Section = Tab:NewSection("Admin Panel Infinite Yield")
+
+Section:NewButton("Admin Panel", "Admin Panel Infinite Yield ", function()
+    loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Infinite%20Yield.lua"))()
+end)
+
+local Section = Tab:NewSection("Admin Panel Dex Explorer")
+
+Section:NewButton("Admin Panel", "Admin Panel Dex Explorer", function()
+    loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Dex%20Explorer.lua"))()
+end)
+
 
