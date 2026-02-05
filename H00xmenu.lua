@@ -6,7 +6,7 @@ local Tab = Window:NewTab("Tools")
 
 local Section = Tab:NewSection("Teleport")
 
-Section:NewButton("Aim-bot,Esp", "Aim-bot,Esp", function()
+Section:NewButton("Teleport Tools", ";)", function()
    --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
