@@ -210,4 +210,10 @@ Section:NewButton("Admin Panel", "Admin Panel Dex Explorer", function()
     loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Dex%20Explorer.lua"))()
 end)
 
+local Tab = Window:NewTab("Tools Detours")
 
+local Section = Tab:NewSection("Bypass")
+
+Section:NewButton("Bypass Fly", "Bypass Fly", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NVX9V7ve",true))()
+end)
