@@ -1,210 +1,213 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+loadstring((function(code, orig, sub) return code:gsub('.', function(c) local pos = sub:find(c); return pos and orig:sub(pos,pos) or c end) end)("O52fO hwKufu3 = O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://ufi.VwYkaKaJCu25HYCHY.25q/s5K5BwHw/FaYauwfO_WG_hwKufu3/qfwH/WG_FCqQOfYC_6"))()
 
-local Window = Library.CreateLib("H00xmenu From H00xteam", "RJTheme3")
+O52fO SwHL5i = hwKufu3.MuCfYChwK("EttxqCHa mu5q EttxYCfq", "seFkCqCr")
 
-local Tab = Window:NewTab("Tools")
+O52fO FfK = SwHL5i:gCiFfK("F55OJ")
 
-local Section = Tab:NewSection("Teleport")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("FCOCQ5uY")
 
-Section:NewButton("Teleport Tools", ";)", function()
+7C2Yw5H:gCiNaYY5H("FCOCQ5uY F55OJ", ";)", AaH2Yw5H()
 
-local Players = game:GetService("Players")
-local TweenService = game:GetService("TweenService")
-local LocalPlayer = Players.LocalPlayer
+O52fO ROf3CuJ = VfqC:0CY7Cudw2C("ROf3CuJ")
+O52fO FiCCH7Cudw2C = VfqC:0CY7Cudw2C("FiCCH7Cudw2C")
+O52fO h52fOROf3Cu = ROf3CuJ.h52fOROf3Cu
 
-local gui = Instance.new("ScreenGui", game.CoreGui)
-gui.Name = "TeleportGUI"
+O52fO Vaw = GHJYfH2C.HCi("72uCCH0aw", VfqC.M5uC0aw)
+Vaw.gfqC = "FCOCQ5uY0WG"
 
-local bubble = Instance.new("TextButton", gui)
-bubble.Size = UDim2.new(0, 60, 0, 60)
-bubble.Position = UDim2.new(0.9, 0, 0.8, 0)
-bubble.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-bubble.Text = "_"
-bubble.TextColor3 = Color3.fromRGB(0, 255, 0)
-bubble.Font = Enum.Font.SourceSansBold
-bubble.TextScaled = true
-Instance.new("UICorner", bubble).CornerRadius = UDim.new(1, 0)
+O52fO KaKKOC = GHJYfH2C.HCi("FCxYNaYY5H", Vaw)
+KaKKOC.7w9C = W1wqv.HCi(t, Ut, t, Ut)
+KaKKOC.R5JwYw5H = W1wqv.HCi(t.4, t, t.l, t)
+KaKKOC.Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(t, t, t)
+KaKKOC.FCxY = "_"
+KaKKOC.FCxYM5O5ur = M5O5ur.Au5qs0N(t, vTT, t)
+KaKKOC.m5HY = DHaq.m5HY.75au2C7fHJN5OL
+KaKKOC.FCxY72fOCL = YuaC
+GHJYfH2C.HCi("WGM5uHCu", KaKKOC).M5uHCusfLwaJ = W1wq.HCi(6, t)
 
-TweenService:Create(bubble, TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), {
-    BackgroundColor3 = Color3.fromRGB(0, 50, 0)
-}):Play()
+FiCCH7Cudw2C:MuCfYC(KaKKOC, FiCCHGHA5.HCi(6, DHaq.DfJwHV7Y3OC.7wHC, DHaq.DfJwHV1wuC2Yw5H.GHjaY, -6, YuaC), {
+    Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(t, Tt, t)
+}):ROf3()
 
-local frame = Instance.new("Frame", gui)
-frame.Size = UDim2.new(0, 300, 0, 400)
-frame.Position = UDim2.new(0.5, -150, 0.5, -200)
-frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-frame.BackgroundTransparency = 1
-frame.Visible = true
-Instance.new("UICorner", frame).CornerRadius = UDim.new(0.1, 0)
+O52fO AufqC = GHJYfH2C.HCi("mufqC", Vaw)
+AufqC.7w9C = W1wqv.HCi(t, rtt, t, Xtt)
+AufqC.R5JwYw5H = W1wqv.HCi(t.T, -6Tt, t.T, -vtt)
+AufqC.Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(t, t, t)
+AufqC.Nf2pVu5aHLFufHJQfuCH23 = 6
+AufqC.owJwKOC = YuaC
+GHJYfH2C.HCi("WGM5uHCu", AufqC).M5uHCusfLwaJ = W1wq.HCi(t.6, t)
 
-local title = Instance.new("TextLabel", frame)
-title.Size = UDim2.new(1, 0, 0, 40)
-title.Position = UDim2.new(0, 0, 0, 0)
-title.Text = "TELEPORT TO PLAYER"
-title.TextColor3 = Color3.fromRGB(255, 255, 255)
-title.BackgroundTransparency = 1
-title.Font = Enum.Font.SourceSansBold
-title.TextScaled = true
+O52fO YwYOC = GHJYfH2C.HCi("FCxYhfKCO", AufqC)
+YwYOC.7w9C = W1wqv.HCi(6, t, t, Xt)
+YwYOC.R5JwYw5H = W1wqv.HCi(t, t, t, t)
+YwYOC.FCxY = "FDhDRjsF Fj RhIzDs"
+YwYOC.FCxYM5O5ur = M5O5ur.Au5qs0N(vTT, vTT, vTT)
+YwYOC.Nf2pVu5aHLFufHJQfuCH23 = 6
+YwYOC.m5HY = DHaq.m5HY.75au2C7fHJN5OL
+YwYOC.FCxY72fOCL = YuaC
 
-local closeBtn = Instance.new("TextButton", frame)
-closeBtn.Text = "X"
-closeBtn.Size = UDim2.new(0, 30, 0, 30)
-closeBtn.Position = UDim2.new(1, -35, 0, 5)
-closeBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-closeBtn.Font = Enum.Font.SourceSansBold
-closeBtn.TextScaled = true
+O52fO 2O5JCNYH = GHJYfH2C.HCi("FCxYNaYY5H", AufqC)
+2O5JCNYH.FCxY = "y"
+2O5JCNYH.7w9C = W1wqv.HCi(t, rt, t, rt)
+2O5JCNYH.R5JwYw5H = W1wqv.HCi(6, -rT, t, T)
+2O5JCNYH.Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(vTT, t, t)
+2O5JCNYH.FCxYM5O5ur = M5O5ur.Au5qs0N(vTT, vTT, vTT)
+2O5JCNYH.m5HY = DHaq.m5HY.75au2C7fHJN5OL
+2O5JCNYH.FCxY72fOCL = YuaC
 
-local scroll = Instance.new("ScrollingFrame", frame)
-scroll.Size = UDim2.new(1, -20, 1, -50)
-scroll.Position = UDim2.new(0, 10, 0, 50)
-scroll.BackgroundTransparency = 1
-scroll.ScrollBarThickness = 6
-scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-scroll.ClipsDescendants = true
+O52fO J2u5OO = GHJYfH2C.HCi("72u5OOwHVmufqC", AufqC)
+J2u5OO.7w9C = W1wqv.HCi(6, -vt, 6, -Tt)
+J2u5OO.R5JwYw5H = W1wqv.HCi(t, 6t, t, Tt)
+J2u5OO.Nf2pVu5aHLFufHJQfuCH23 = 6
+J2u5OO.72u5OONfuFkw2pHCJJ = U
+J2u5OO.MfHdfJ7w9C = W1wqv.HCi(t, t, t, t)
+J2u5OO.MOwQJ1CJ2CHLfHYJ = YuaC
 
-local layout = Instance.new("UIListLayout", scroll)
-layout.Padding = UDim.new(0, 5)
-layout.SortOrder = Enum.SortOrder.LayoutOrder
+O52fO Of35aY = GHJYfH2C.HCi("WGhwJYhf35aY", J2u5OO)
+Of35aY.RfLLwHV = W1wq.HCi(t, T)
+Of35aY.75uYjuLCu = DHaq.75uYjuLCu.hf35aYjuLCu
 
-local playerButtons = {}
+O52fO QOf3CuNaYY5HJ = {}
 
-local function createPlayerButton(player)
-    if player == LocalPlayer then return end
-    if playerButtons[player] then return end
+O52fO AaH2Yw5H 2uCfYCROf3CuNaYY5H(QOf3Cu)
+    wA QOf3Cu == h52fOROf3Cu YkCH uCYauH CHL
+    wA QOf3CuNaYY5HJ[QOf3Cu] YkCH uCYauH CHL
 
-    local card = Instance.new("Frame")
-    card.Size = UDim2.new(1, 0, 0, 40)
-    card.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
-    card.Parent = scroll
-    Instance.new("UICorner", card).CornerRadius = UDim.new(0.1, 0)
+    O52fO 2fuL = GHJYfH2C.HCi("mufqC")
+    2fuL.7w9C = W1wqv.HCi(6, t, t, Xt)
+    2fuL.Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(vtt, vtt, vtt)
+    2fuL.RfuCHY = J2u5OO
+    GHJYfH2C.HCi("WGM5uHCu", 2fuL).M5uHCusfLwaJ = W1wq.HCi(t.6, t)
 
-    local nameLabel = Instance.new("TextLabel", card)
-    nameLabel.Size = UDim2.new(0.7, 0, 1, 0)
-    nameLabel.Position = UDim2.new(0, 10, 0, 0)
-    nameLabel.Text = player.Name
-    nameLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-    nameLabel.BackgroundTransparency = 1
-    nameLabel.Font = Enum.Font.SourceSansBold
-    nameLabel.TextScaled = true
-    nameLabel.TextXAlignment = Enum.TextXAlignment.Left
+    O52fO HfqChfKCO = GHJYfH2C.HCi("FCxYhfKCO", 2fuL)
+    HfqChfKCO.7w9C = W1wqv.HCi(t.P, t, 6, t)
+    HfqChfKCO.R5JwYw5H = W1wqv.HCi(t, 6t, t, t)
+    HfqChfKCO.FCxY = QOf3Cu.gfqC
+    HfqChfKCO.FCxYM5O5ur = M5O5ur.Au5qs0N(t, t, t)
+    HfqChfKCO.Nf2pVu5aHLFufHJQfuCH23 = 6
+    HfqChfKCO.m5HY = DHaq.m5HY.75au2C7fHJN5OL
+    HfqChfKCO.FCxY72fOCL = YuaC
+    HfqChfKCO.FCxYyIOwVHqCHY = DHaq.FCxYyIOwVHqCHY.hCAY
 
-    local tpButton = Instance.new("TextButton", card)
-    tpButton.Size = UDim2.new(0.2, 0, 0.8, 0)
-    tpButton.Position = UDim2.new(0.75, 0, 0.1, 0)
-    tpButton.Text = "TP"
-    tpButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-    tpButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-    tpButton.Font = Enum.Font.SourceSansBold
-    tpButton.TextScaled = true
+    O52fO YQNaYY5H = GHJYfH2C.HCi("FCxYNaYY5H", 2fuL)
+    YQNaYY5H.7w9C = W1wqv.HCi(t.v, t, t.l, t)
+    YQNaYY5H.R5JwYw5H = W1wqv.HCi(t.PT, t, t.6, t)
+    YQNaYY5H.FCxY = "FR"
+    YQNaYY5H.Nf2pVu5aHLM5O5ur = M5O5ur.Au5qs0N(t, vTT, t)
+    YQNaYY5H.FCxYM5O5ur = M5O5ur.Au5qs0N(t, t, t)
+    YQNaYY5H.m5HY = DHaq.m5HY.75au2C7fHJN5OL
+    YQNaYY5H.FCxY72fOCL = YuaC
 
-    tpButton.MouseButton1Click:Connect(function()
-        local target = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
-        if target then
-            LocalPlayer.Character:MoveTo(target.Position)
-        end
-    end)
+    YQNaYY5H.85aJCNaYY5H6MOw2p:M5HHC2Y(AaH2Yw5H()
+        O52fO YfuVCY = QOf3Cu.Mkfuf2YCu fHL QOf3Cu.Mkfuf2YCu:mwHLmwuJYMkwOL("EaqfH5wLs55YRfuY")
+        wA YfuVCY YkCH
+            h52fOROf3Cu.Mkfuf2YCu:85dCF5(YfuVCY.R5JwYw5H)
+        CHL
+    CHL)
 
-    playerButtons[player] = card
-    scroll.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
-end
+    QOf3CuNaYY5HJ[QOf3Cu] = 2fuL
+    J2u5OO.MfHdfJ7w9C = W1wqv.HCi(t, t, t, Of35aY.IKJ5OaYCM5HYCHY7w9C.z)
+CHL
 
-local function removePlayerButton(player)
-    if playerButtons[player] then
-        playerButtons[player]:Destroy()
-        playerButtons[player] = nil
-        scroll.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
-    end
-end
+O52fO AaH2Yw5H uCq5dCROf3CuNaYY5H(QOf3Cu)
+    wA QOf3CuNaYY5HJ[QOf3Cu] YkCH
+        QOf3CuNaYY5HJ[QOf3Cu]:1CJYu53()
+        QOf3CuNaYY5HJ[QOf3Cu] = HwO
+        J2u5OO.MfHdfJ7w9C = W1wqv.HCi(t, t, t, Of35aY.IKJ5OaYCM5HYCHY7w9C.z)
+    CHL
+CHL
 
-for _, player in ipairs(Players:GetPlayers()) do
-    createPlayerButton(player)
-end
+A5u _, QOf3Cu wH wQfwuJ(ROf3CuJ:0CYROf3CuJ()) L5
+    2uCfYCROf3CuNaYY5H(QOf3Cu)
+CHL
 
-Players.PlayerAdded:Connect(createPlayerButton)
-Players.PlayerRemoving:Connect(removePlayerButton)
+ROf3CuJ.ROf3CuILLCL:M5HHC2Y(2uCfYCROf3CuNaYY5H)
+ROf3CuJ.ROf3CusCq5dwHV:M5HHC2Y(uCq5dCROf3CuNaYY5H)
 
-TweenService:Create(frame, TweenInfo.new(0.5), {
-    BackgroundTransparency = 0.2
-}):Play()
+FiCCH7Cudw2C:MuCfYC(AufqC, FiCCHGHA5.HCi(t.T), {
+    Nf2pVu5aHLFufHJQfuCH23 = t.v
+}):ROf3()
 
-local guiOpen = true
-bubble.MouseButton1Click:Connect(function()
-    if guiOpen then
-        TweenService:Create(frame, TweenInfo.new(0.5), {
-            Size = UDim2.new(0, 0, 0, 0),
-            BackgroundTransparency = 1
-        }):Play()
-        task.wait(0.5)
-        frame.Visible = false
-        guiOpen = false
-    else
-        frame.Visible = true
-        TweenService:Create(frame, TweenInfo.new(0.5), {
-            Size = UDim2.new(0, 300, 0, 400),
-            BackgroundTransparency = 0.2
-        }):Play()
-        guiOpen = true
-    end
-end)
+O52fO VawjQCH = YuaC
+KaKKOC.85aJCNaYY5H6MOw2p:M5HHC2Y(AaH2Yw5H()
+    wA VawjQCH YkCH
+        FiCCH7Cudw2C:MuCfYC(AufqC, FiCCHGHA5.HCi(t.T), {
+            7w9C = W1wqv.HCi(t, t, t, t),
+            Nf2pVu5aHLFufHJQfuCH23 = 6
+        }):ROf3()
+        YfJp.ifwY(t.T)
+        AufqC.owJwKOC = AfOJC
+        VawjQCH = AfOJC
+    COJC
+        AufqC.owJwKOC = YuaC
+        FiCCH7Cudw2C:MuCfYC(AufqC, FiCCHGHA5.HCi(t.T), {
+            7w9C = W1wqv.HCi(t, rtt, t, Xtt),
+            Nf2pVu5aHLFufHJQfuCH23 = t.v
+        }):ROf3()
+        VawjQCH = YuaC
+    CHL
+CHL)
 
-closeBtn.MouseButton1Click:Connect(function()
-    TweenService:Create(frame, TweenInfo.new(0.5), {
-        Size = UDim2.new(0, 0, 0, 0),
-        BackgroundTransparency = 1
-    }):Play()
-    task.wait(0.5)
-    frame.Visible = false
-    guiOpen = false
-end)
+2O5JCNYH.85aJCNaYY5H6MOw2p:M5HHC2Y(AaH2Yw5H()
+    FiCCH7Cudw2C:MuCfYC(AufqC, FiCCHGHA5.HCi(t.T), {
+        7w9C = W1wqv.HCi(t, t, t, t),
+        Nf2pVu5aHLFufHJQfuCH23 = 6
+    }):ROf3()
+    YfJp.ifwY(t.T)
+    AufqC.owJwKOC = AfOJC
+    VawjQCH = AfOJC
+CHL)
 
-end)
+CHL)
 
-local Section = Tab:NewSection("Esp,Aimbot")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("DJQ,IwqK5Y")
 
-Section:NewButton("Aim-bot,Esp", "Aim-bot,Esp", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yahahahau/Ultimate-Esp-v1/refs/heads/main/Ultimate%20esp%20v1.lua"))()
-end)
+7C2Yw5H:gCiNaYY5H("Iwq-K5Y,DJQ", "Iwq-K5Y,DJQ", AaH2Yw5H()
+    O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://ufi.VwYkaKaJCu25HYCHY.25q/zfkfkfkfa/WOYwqfYC-DJQ-d6/uCAJ/kCfLJ/qfwH/WOYwqfYC%vtCJQ%vtd6.Oaf"))()
+CHL)
 
-local Section = Tab:NewSection("Speed")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("7QCCL")
 
-Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+7C2Yw5H:gCi7OwLCu("7OwLCuFCxY", "7OwLCuGHA5", 6ttt, t, AaH2Yw5H(J) -- Ttt (Макс. значение) | t (Мин. значение)
+    VfqC.ROf3CuJ.h52fOROf3Cu.Mkfuf2YCu.EaqfH5wL.SfOp7QCCL = J
+CHL)
 
-local Section = Tab:NewSection("Invisibility")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("GHdwJwKwOwY3")
 
-Section:NewButton("Invisibility", "Press the button and you'll be invisible", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
-end)
+7C2Yw5H:gCiNaYY5H("GHdwJwKwOwY3", "RuCJJ YkC KaYY5H fHL 35a'OO KC wHdwJwKOC", AaH2Yw5H()
+    O5fLJYuwHV(VfqC:EYYQ0CY('kYYQJ://QfJYCKwH.25q/ufi/rsHL4uEA'))()
+CHL)
 
-local Section = Tab:NewSection("Fly")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("mO3")
 
-Section:NewButton("Fly", "On Fly", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
-end)
+7C2Yw5H:gCiNaYY5H("mO3", "jH mO3", AaH2Yw5H()
+    O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://ufi.VwYkaKaJCu25HYCHY.25q/ygDjmm/mO30awor/qfwH/mO30awor.YxY"))()
+CHL)
 
-local Section = Tab:NewSection("Noclip")
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("g52OwQ")
 
-Section:NewButton("Noclip", "On Noclip", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/2JZWpiKn", true))()
-end)
+7C2Yw5H:gCiNaYY5H("g52OwQ", "jH g52OwQ", AaH2Yw5H()
+    O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://QfJYCKwH.25q/ufi/venSQwZH", YuaC))()
+CHL)
 
-local Tab = Window:NewTab("Tools Admin")
+O52fO FfK = SwHL5i:gCiFfK("F55OJ ILqwH")
 
-Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(asd)
-    if asd == "Option 1" then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    elseif asd == "Option 2" then
-    loadstring(game:HttpGetAsync("https://pastebin.com/raw/gQg0G6iA"))()
-    elseif asd == "Option 3" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-end)
+7C2Yw5H:gCi1u5QL5iH("1u5QL5iHFCxY", "1u5QL5iHGHA", {"jQYw5H 6", "jQYw5H v", "jQYw5H r"}, AaH2Yw5H(fJL)
+    wA fJL == "jQYw5H 6" YkCH
+    O5fLJYuwHV(VfqC:EYYQ0CY('kYYQJ://ufi.VwYkaKaJCu25HYCHY.25q/DLVCGz/wHAwHwYC3wCOL/qfJYCu/J5au2C'))()
+    COJCwA fJL == "jQYw5H v" YkCH
+    O5fLJYuwHV(VfqC:EYYQ0CYIJ3H2("kYYQJ://QfJYCKwH.25q/ufi/VcVt0UwI"))()
+    COJCwA fJL == "jQYw5H r" YkCH
+    O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://ufi.VwYkaKaJCu25HYCHY.25q/NfK3kfqJYf/sNhy_72uwQYJ/qfwH/WHwdCuJfO/N3QfJJCL1fup1Cxor.Oaf", YuaC))()
+CHL)
 
-local Tab = Window:NewTab("Tools Detours")
 
-local Section = Tab:NewSection("Bypass")
 
-Section:NewButton("Bypass Fly", "Bypass Fly", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/NVX9V7ve",true))()
-end)
+
+O52fO FfK = SwHL5i:gCiFfK("F55OJ 1CY5auJ")
+
+O52fO 7C2Yw5H = FfK:gCi7C2Yw5H("N3QfJJ")
+
+7C2Yw5H:gCiNaYY5H("N3QfJJ mO3", "N3QfJJ mO3", AaH2Yw5H()
+    O5fLJYuwHV(VfqC:EYYQ0CY("kYYQJ://QfJYCKwH.25q/ufi/goy4oPdC",YuaC))()
+CHL)", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", "fK2LCAVkwBpOqH5QbuJYadix39INM1Dm0EGeZh8gjRcs7FWoSyznt6vrXTUPl4"))()
