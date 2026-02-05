@@ -193,12 +193,13 @@ end)
 local Tab = Window:NewTab("Tools Admin")
 
 Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(asd)
-    if asd == "Option 1" then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    elseif asd == "Option 2" then
-    loadstring(game:HttpGetAsync("https://pastebin.com/raw/gQg0G6iA"))()
-    elseif asd == "Option 3" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+if asd == "Option 1" then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+elseif asd == "Option 2" then
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gQg0G6iA"))()
+elseif asd == "Option 3" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end
 end)
 
 
