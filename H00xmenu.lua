@@ -6,6 +6,10 @@ local Tab = Window:NewTab("Tools")
 
 local Section = Tab:NewSection("Teleport")
 
+Section:NewButton("Aim-bot,Esp", "Aim-bot,Esp", function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local LocalPlayer = Players.LocalPlayer
@@ -168,6 +172,7 @@ closeBtn.MouseButton1Click:Connect(function()
     guiOpen = false
 end)
 
+end)
 
 local Section = Tab:NewSection("Esp,Aimbot")
 
