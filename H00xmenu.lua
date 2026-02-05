@@ -199,7 +199,6 @@ elseif asd == "Option 2" then
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/gQg0G6iA"))()
 elseif asd == "Option 3" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-end
 end)
 
 local Tab = Window:NewTab("Tools Detours")
