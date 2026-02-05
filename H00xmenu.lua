@@ -7,9 +7,7 @@ local Tab = Window:NewTab("Tools")
 local Section = Tab:NewSection("Teleport")
 
 Section:NewButton("Teleport Tools", ";)", function()
-   --[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
+
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local LocalPlayer = Players.LocalPlayer
@@ -17,7 +15,6 @@ local LocalPlayer = Players.LocalPlayer
 local gui = Instance.new("ScreenGui", game.CoreGui)
 gui.Name = "TeleportGUI"
 
--- Burbuja
 local bubble = Instance.new("TextButton", gui)
 bubble.Size = UDim2.new(0, 60, 0, 60)
 bubble.Position = UDim2.new(0.9, 0, 0.8, 0)
@@ -32,7 +29,6 @@ TweenService:Create(bubble, TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingD
     BackgroundColor3 = Color3.fromRGB(0, 50, 0)
 }):Play()
 
--- Marco principal
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 300, 0, 400)
 frame.Position = UDim2.new(0.5, -150, 0.5, -200)
@@ -41,7 +37,6 @@ frame.BackgroundTransparency = 1
 frame.Visible = true
 Instance.new("UICorner", frame).CornerRadius = UDim.new(0.1, 0)
 
--- Título
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 40)
 title.Position = UDim2.new(0, 0, 0, 0)
@@ -51,7 +46,6 @@ title.BackgroundTransparency = 1
 title.Font = Enum.Font.SourceSansBold
 title.TextScaled = true
 
--- Botón cerrar
 local closeBtn = Instance.new("TextButton", frame)
 closeBtn.Text = "X"
 closeBtn.Size = UDim2.new(0, 30, 0, 30)
@@ -61,7 +55,6 @@ closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeBtn.Font = Enum.Font.SourceSansBold
 closeBtn.TextScaled = true
 
--- Scroll
 local scroll = Instance.new("ScrollingFrame", frame)
 scroll.Size = UDim2.new(1, -20, 1, -50)
 scroll.Position = UDim2.new(0, 10, 0, 50)
@@ -74,10 +67,8 @@ local layout = Instance.new("UIListLayout", scroll)
 layout.Padding = UDim.new(0, 5)
 layout.SortOrder = Enum.SortOrder.LayoutOrder
 
--- Tabla de botones
 local playerButtons = {}
 
--- Crear botón para jugador
 local function createPlayerButton(player)
     if player == LocalPlayer then return end
     if playerButtons[player] then return end
@@ -118,7 +109,6 @@ local function createPlayerButton(player)
     scroll.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
 end
 
--- Eliminar botón al salir
 local function removePlayerButton(player)
     if playerButtons[player] then
         playerButtons[player]:Destroy()
@@ -127,7 +117,6 @@ local function removePlayerButton(player)
     end
 end
 
--- Inicializar lista
 for _, player in ipairs(Players:GetPlayers()) do
     createPlayerButton(player)
 end
@@ -135,12 +124,10 @@ end
 Players.PlayerAdded:Connect(createPlayerButton)
 Players.PlayerRemoving:Connect(removePlayerButton)
 
--- Animación al ejecutar
 TweenService:Create(frame, TweenInfo.new(0.5), {
     BackgroundTransparency = 0.2
 }):Play()
 
--- Toggle con burbuja
 local guiOpen = true
 bubble.MouseButton1Click:Connect(function()
     if guiOpen then
@@ -161,7 +148,6 @@ bubble.MouseButton1Click:Connect(function()
     end
 end)
 
--- Botón cerrar
 closeBtn.MouseButton1Click:Connect(function()
     TweenService:Create(frame, TweenInfo.new(0.5), {
         Size = UDim2.new(0, 0, 0, 0),
