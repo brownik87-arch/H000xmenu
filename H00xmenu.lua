@@ -192,13 +192,19 @@ end)
 
 local Tab = Window:NewTab("Tools Admin")
 
-Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(asd)
+Section:NewButton("Aim-bot,Esp", "Aim-bot,Esp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yahahahau/Ultimate-Esp-v1/refs/heads/main/Ultimate%20esp%20v1.lua"))()
+end)
+
+Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3", "Option 4"}, function(asd)
 if asd == "Option 1" then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 elseif asd == "Option 2" then
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/gQg0G6iA"))()
 elseif asd == "Option 3" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+elseif asd == "Option 4" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/puchpi/spectator/refs/heads/main/puchpiSpectator.lua"))()
 end
 end)
 
