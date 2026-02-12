@@ -39,3 +39,33 @@ Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button.TextScaled = true
 Button.TextSize = 14.000
 Button.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = Gradient
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.487012982, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0.878787875, -20, 0.728395045, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Fly"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+Button.MouseButton1Down:connect(function()
+
+end)
+
+coroutine.wrap(LHMZZV_fake_script)()
+
+
+
