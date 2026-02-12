@@ -25,3 +25,17 @@ UIGradient.Parent = Gradient
 
 UICorner.CornerRadius = UDim.new(0.0399999991, 0)
 UICorner.Parent = Gradient
+
+Button.Name = "Button"
+Button.Parent = Gradient
+Button.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0921155736, 0, 0.238353431, 0)
+Button.Size = UDim2.new(0, 187, 0, 41)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
