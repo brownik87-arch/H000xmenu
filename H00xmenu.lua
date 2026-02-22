@@ -80,3 +80,112 @@ ForceField.MouseButton1Down:connect(function()
  local ForceFieldGUI_2 = Instance.new("TextButton") 
  local ForceFieldOFF = Instance.new("TextButton") 
  local ForceFieldON = Instance.new("TextButton") 
+ 
+ --Properties: 
+ 
+ ForceFieldGUI.Name = "ForceFieldGUI" 
+ ForceFieldGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") 
+ 
+ ForceFieldGUI_2.Name = "ForceFieldGUI" 
+ ForceFieldGUI_2.Parent = ForceFieldGUI 
+ ForceFieldGUI_2.BackgroundColor3 = Color3.fromRGB(1, 242, 255) 
+ ForceFieldGUI_2.BackgroundTransparency = 0.300 
+ ForceFieldGUI_2.BorderColor3 = Color3.fromRGB(1, 242, 255) 
+ ForceFieldGUI_2.BorderSizePixel = 0 
+ ForceFieldGUI_2.Position = UDim2.new(0, 0, 0, 240) 
+ ForceFieldGUI_2.Size = UDim2.new(0, 100, 0, 20) 
+ ForceFieldGUI_2.Text = "ForceField" 
+ ForceFieldGUI_2.TextColor3 = Color3.fromRGB(17, 17, 17) 
+ ForceFieldGUI_2.TextTransparency = 0.300 
+ 
+ ForceFieldOFF.Name = "ForceFieldOFF" 
+ ForceFieldOFF.Parent = ForceFieldGUI 
+ ForceFieldOFF.BackgroundColor3 = Color3.fromRGB(1, 242, 255) 
+ ForceFieldOFF.BackgroundTransparency = 0.300 
+ ForceFieldOFF.BorderColor3 = Color3.fromRGB(1, 242, 255) 
+ ForceFieldOFF.BorderSizePixel = 0 
+ ForceFieldOFF.Position = UDim2.new(0, 0, 0, 280) 
+ ForceFieldOFF.Size = UDim2.new(0, 100, 0, 20) 
+ ForceFieldOFF.Visible = false 
+ ForceFieldOFF.Text = "Off" 
+ ForceFieldOFF.TextColor3 = Color3.fromRGB(17, 17, 17) 
+ 
+ ForceFieldON.Name = "ForceFieldON" 
+ ForceFieldON.Parent = ForceFieldGUI 
+ ForceFieldON.BackgroundColor3 = Color3.fromRGB(1, 242, 255) 
+ ForceFieldON.BackgroundTransparency = 0.300 
+ ForceFieldON.BorderColor3 = Color3.fromRGB(245, 244, 247) 
+ ForceFieldON.BorderSizePixel = 0 
+ ForceFieldON.Position = UDim2.new(0, 0, 0, 260) 
+ ForceFieldON.Size = UDim2.new(0, 100, 0, 20) 
+ ForceFieldON.Visible = false 
+ ForceFieldON.Text = "On" 
+ ForceFieldON.TextColor3 = Color3.fromRGB(17, 17, 17) 
+ 
+ -- Scripts: 
+ 
+ local function DVAWVL_true_script() -- ForceFieldGUI_2.Script  
+ local script = Instance.new('Script', ForceFieldGUI_2) 
+ 
+ function onClicked(GUI) 
+ h = script.Parent.Parent.Parent.Parent.Character:findFirstChild("Humanoid") 
+ if (h ~= nil) then 
+ script.Parent.Parent.ForceFieldOFF.Visible = true 
+ script.Parent.Parent.ForceFieldON.Visible = true 
+ else return end 
+ end 
+ script.Parent.MouseButton1Click:connect(onClicked) 
+ end 
+ coroutine.wrap(DVAWVL_true_script)() 
+ local function HYECSMJ_true_script() -- ForceFieldOFF.Script  
+ local script = Instance.new('Script', ForceFieldOFF) 
+ 
+ function onClicked(GUI) 
+ f = script.Parent.Parent.Parent.Parent.Character:findFirstChild("ForceField") 
+ if (f ~= nil) then 
+ f:remove() 
+ else return end 
+ end 
+ script.Parent.MouseButton1Click:connect(onClicked) 
+	end
+ coroutine.wrap(HYECSMJ_true_script)() 
+ local function LOYRXPU_true_script() -- ForceFieldOFF.Script  
+ local script = Instance.new('Script', ForceFieldOFF) 
+ 
+ function onClicked(GUI) 
+ h = script.Parent.Parent.Parent.Parent.Character:findFirstChild("Humanoid") 
+ if (h ~= nil) then 
+ script.Parent.Parent.ForceFieldOFF.Visible = false 
+ script.Parent.Parent.ForceFieldON.Visible = false 
+ else return end 
+ end 
+ script.Parent.MouseButton1Click:connect(onClicked) 
+	end
+ coroutine.wrap(LOYRXPU_true_script)() 
+ local function PFEVNBW_true_script() -- ForceFieldON.Script  
+ local script = Instance.new('Script', ForceFieldON) 
+ 
+ function onClicked(GUI) 
+ h = script.Parent.Parent.Parent.Parent.Character:findFirstChild("Humanoid") 
+ if (h ~= nil) then 
+ FF = Instance.new("ForceField") 
+ FF.Parent = script.Parent.Parent.Parent.Parent.Character 
+ else return end 
+ end 
+ script.Parent.MouseButton1Click:connect(onClicked) 
+	end
+ coroutine.wrap(PFEVNBW_true_script)() 
+ local function FNHQ_true_script() -- ForceFieldON.Script  
+ local script = Instance.new('Script', ForceFieldON) 
+ 
+ function onClicked(GUI) 
+ h = script.Parent.Parent.Parent.Parent.Character:findFirstChild("Humanoid") 
+ if (h ~= nil) then 
+ script.Parent.Parent.ForceFieldOFF.Visible = false 
+ script.Parent.Parent.ForceFieldON.Visible = false 
+ else return end 
+ end 
+ script.Parent.MouseButton1Click:connect(onClicked) 
+	end
+ coroutine.wrap(FNHQ_true_script)() 
+end) 
