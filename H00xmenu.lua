@@ -18,7 +18,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling 
  
 Frame.Parent = ScreenGui 
-Frame.BackgroundColor3 = Color3.fromRGB(1, 255, 255) 
+Frame.BackgroundColor3 = Color3.fromRGB(192, 192, 192) 
 Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0) 
 Frame.Size = UDim2.new(0, 378, 0, 250) 
  
@@ -28,7 +28,7 @@ Name.BackgroundColor3 = Color3.fromRGB(1, 242, 255)
 Name.Size = UDim2.new(0, 378, 0, 25) 
 Name.Font = Enum.Font.GothamBold 
 Name.Text = "H00xmenu" 
-Name.TextColor3 = Color3.fromRGB(0, 0, 0) 
+Name.TextColor3 = Color3.fromRGB(192, 192, 192) 
 Name.TextScaled = true 
 Name.TextSize = 14.000 
 Name.TextWrapped = true 
