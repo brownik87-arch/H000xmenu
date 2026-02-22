@@ -32,3 +32,4 @@ Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true 
 Name.TextSize = 14.000 
 Name.TextWrapped = true 
+
