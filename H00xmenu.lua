@@ -59,3 +59,24 @@ e1x1x1x1Message.MouseButton1Down:connect(function()
  
  end 
 end) 
+
+ForceField.Name = "ForceField" 
+ForceField.Parent = Frame 
+ForceField.BackgroundColor3 = Color3.fromRGB(1, 242, 255) 
+ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0) 
+ForceField.Size = UDim2.new(0, 89, 0, 34) 
+ForceField.Font = Enum.Font.GothamBold 
+ForceField.Text = "FF" 
+ForceField.TextColor3 = Color3.fromRGB(0, 0, 0) 
+ForceField.TextScaled = true 
+ForceField.TextSize = 14.000 
+ForceField.TextWrapped = true 
+ForceField.MouseButton1Down:connect(function() 
+ -- Gui to Lua 
+ -- Version: 3. 
+ -- Instances: 
+ 
+ local ForceFieldGUI = Instance.new("ScreenGui") 
+ local ForceFieldGUI_2 = Instance.new("TextButton") 
+ local ForceFieldOFF = Instance.new("TextButton") 
+ local ForceFieldON = Instance.new("TextButton") 
